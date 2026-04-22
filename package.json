@@ -1,0 +1,18 @@
+{
+  "name": "repro-rolldown-plugin-dts-1",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsdown"
+  },
+  "dependencies": {
+    "tsdown": "^0.21.9",
+    "typescript": "^6.0.3"
+  },
+  "exports": {
+    "./index1": "./dist/index1.mjs",
+    "./index2": "./dist/index2.mjs",
+    "./package.json": "./package.json"
+  }
+}
